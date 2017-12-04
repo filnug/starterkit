@@ -1,0 +1,25 @@
+/*import sanitize.css*/
+@import url('_sanitize.css');
+
+/*import variables.css*/
+/*contient uniquement les variables CSS*/
+@import url('_variables.css');
+
+/*import base.css*/
+/*contient uniquement les éléments HTML de base. Par exemple, body, h1, p, a, etc.*/
+@import url('_base.css');
+
+/*import layout.css*/
+/*contient uniquement les éléments en relation à la mise en page du site. Chaque classe ou id doit être nommée par le préfixe ".l-". Par exemple, .l-container ou .l-col*/
+@import url('_layout.css');
+
+/*import module.css*/
+/*contient uniquement les classes ou id relatifs aux fonctionnalités du site. Par exemple, .formular ou .mainnav, etc. Toutes les classes ou id doivent être formulées en anglais et de manière représentative de leur fonction.*/
+@import url('_module.css');
+
+/*import state.css*/
+/*contient uniquement les classes en référence au fichier "main.js". Chaque classe ou id doit être nommée par les préfixes ".is-" ou ".has-". Par exemple, ".is-open"*/
+@import url('_state.css');
+
+/*import print.css*/
+@import url('_print.css')
